@@ -71,8 +71,7 @@ session_start();
                     <br>
                     <li class="dropdown"><a href="#"><span><?php echo $_SESSION['username']; ?></span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="login.php">Sign In</a></li>
-                            <li><a href="register.php">Sign Up</a></li>
+                        <li><a href="index.php">Log out</a></li>
                         </ul>
                     </li>
                 </ul>
